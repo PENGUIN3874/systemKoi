@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+// font-family: gowun patang;
+
+.Environment__img{
+    width: 100%;
+    img{
+        height: 70dvh;
+        width: 100%;
+    }
+}
+
+.Environment__body{
+    text-align: center;
+    .search{
+        display: flex;
+
+        margin-left: 670px;
+
+        .ant-input{
+            width: 200px;
+            height: 30px;
+            font-family: gowun patang;
+            margin-top: 50px;
+            margin-right: 5px;
+        }
+        .ant-btn{
+            font-family: gowun patang;
+            background-color:rgb(207, 4, 4) ;
+            width: 90px;
+            color: white;
+            font-weight: 400;
+            margin-top: 50px;
+            
+        }
+    }
+    .add{
+        .ant-btn{
+            font-family: gowun patang;
+            background-color:rgb(207, 4, 4) ;
+            width: 220px;
+            color: white;
+            font-weight: 400;
+            position: relative;
+            bottom: 52px;
+            right: 150px;
+        }
+    }
+
+    .title{
+        h3{
+            color: rgb(208, 0, 0);
+            font-family: gowun patang;
+            font-size: 50px;
+            position: relative;
+            top: 20px;
+        }
+    }
+
+}
+
+.uploaded__pond__info{
+    background-color: #ede9e69d;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 1200px;
+    height: auto;
+    margin:  0 auto;
+}
+
+
+
+.uploaded__pond__info{
+    margin-bottom: 20px;
+    h3{
+        font-family: gowun patang;
+        font-size: 40px;
+        font-weight: 400;
+        color: rgb(203, 7, 7);
+        text-align: center;
+    }
+}
+
+.uploaded__pond__info__left{
+    img{
+        border-radius: 15px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+.ant-modal-header{
+    text-align: center;
+    font-family: gowun patang;
+
+}
+
+.ant-modal-footer{
+    display: flex;
+}
+
+
+  .uploaded__pond__info__right {
+    text-align: left;
+    margin-top: 35px;
+    p{
+        font-family: gowun patang;
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+        font-family: gowun patang;
+        font-size: 20px;
+        padding: 5px 50px;
+        color: white;
+        border-radius: 10px;
+        background-color:rgb(207, 4, 4) ;
+        position: relative;
+        top: 0px;
+    }
+    .ant-btn{
+        font-family: gowun patang;
+        font-size: 20px;
+        padding: 5px 70px;
+        color: white;
+        border-radius: 10px;
+        background-color:rgb(207, 4, 4) ;
+        position: relative;
+        width:100px;
+        margin-left: 50px;
+    }
+  }

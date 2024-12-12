@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+// font-family: gowun patang;
+
+.Viewproduct__img{
+    width: 100%;
+    img{
+        height: 70dvh;
+        width: 100%;
+    }
+}
+
+.Viewproduct__title{
+    h3{
+        color: rgb(208, 0, 0);
+            font-family: gowun patang;
+            font-size: 50px;
+            text-align: center  ;
+    }
+}
+
+.Viewproduct__search{
+    display: flex;
+    margin-left: 100px;
+    .ant-input{
+        width: 300px;
+        height: 30px;
+    }
+    .ant-btn{
+        padding: 5px 10px;
+        background-color: rgb(208, 0, 0);
+        width: 100px;
+        font-family: gowun patang; 
+        color: white;
+        font-size: 20px;
+        position: relative;
+        bottom: 20px;
+        left: 20px;
+    }
+}
+
+.Viewproduct__product{
+    background-color: #ede9e69d;
+    width: 100%;
+    height: auto;
+    margin:0 auto ;
+    margin-bottom: 20px;
+    justify-content: center;
+    .product{
+        margin-top: 25px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
+        text-align: center;
+        max-width: 335px; 
+        max-height: 480px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 100%; 
+          height: 300px; 
+          border-radius: 10px;
+        }
+    }
+    .ant-btn{
+        background-color:rgb(207, 4, 4) ;
+        color: white;
+        width: 310px;
+        height: 45px;
+        border-radius: 10px;
+        font-size: 20px;
+        position: relative;
+        bottom: px;
+        font-family: gowun patang;
+    }
+}
+
+.modal-content {
+    display: flex;
+    padding: 20px;
+
+    .modal-image {
+        flex: 1;
+        img {
+            width: 100%;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+    }
+
+    .modal-details {
+        flex: 1.5;
+        margin-left: 20px;
+
+        h3 {
+            font-family: gowun patang;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .modal-sku,
+        .modal-stock {
+            display: block;
+            margin: 10px 0;
+            font-size: 16px;
+            color: gray;
+            font-family: gowun patang;
+        }
+
+        .modal-price {
+            font-size: 24px;
+            color: red;
+            margin: 10px 0;
+            font-family: gowun patang;
+        }
+
+        .modal-promotions {
+            margin: 20px 0;
+            h4 {
+                font-size: 20px;
+                margin-bottom: 10px;
+                font-family: gowun patang;
+            }
+
+            ul {
+                list-style: none;
+                li {
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                    font-family: gowun patang;
+                    &:before {
+                        content: ':heavy_check_mark:';
+color: green;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+
+        .Viewproduct__buy {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+
+            h5 {
+                margin-right: 10px;
+                font-size: 18px;
+                font-family: gowun patang;
+            }
+
+            input {
+                width: 50px;
+                text-align: center;
+                margin: 0 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            .Viewproduct__minus,
+            .Viewproduct__plus {
+                width: 5px;
+                height: 15px;
+                border: none;
+                background-color: red;
+                color: white;
+                font-size: 15px;
+                border-radius: 50%;
+                position: relative;
+                bottom: 10px;
+                font-family: gowun patang;
+
+                &:hover {
+                    background-color: darkred;
+                }
+            }
+            p {
+                padding: 1px 10px;
+                background-color: rgb(200, 200, 200);
+                color: white;
+                font-size: 15px;
+                position: relative;
+                top: 10px;
+                font-family: gowun patang;
+            }
+        }
+
+        .modal-actions {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            .modal-buy-now,
+            .modal-add-cart {
+                background-color: red;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-family: gowun patang;
+                transition: background-color 0.3s ease;
+
+                &:hover {
+                    background-color: darkred;
+                }
+            }
+
+            .modal-add-cart {
+                background-color: orange;
+            }
+        }
+    }
+}
+
+.notification {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    z-index: 999;
+}

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+.profile_background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../img/koi_wallpaper.jpg');
+}
+
+.profile_container {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffffd9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 80%; 
+    height: 800px;
+}
+
+.profile_sider {
+    background: #f0f2f5;
+}
+
+.profile_menu {
+    height: 100%;
+    border-right: none;
+}
+
+.profile_content {
+  padding: 20px;
+
+  background-color: #fff;
+  overflow: auto; 
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Đẩy nội dung sang bên trái */
+  justify-content: flex-start;
+
+  h5 {
+      margin-top: 10px;
+      font-size: 40px;
+      font-family: "Gowun Batang";
+  }
+
+  .membership-button {
+      width: 200px;
+      padding: 5px 10px; 
+      background-color: red;
+      position: relative;
+      left: 1200px;
+      color: white;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      cursor: pointer;
+      bottom: 50px;
+  }
+
+  .antd-btn{
+
+    margin-left: 500px;
+  }
+}
+
+.profile_divider {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  position: relative;
+  bottom: 30px; /* Điều chỉnh khoảng cách giữa h5 và divider */
+}
+
+
+.profile_body_form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+
+
+.profile_body_form input {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+
+}
+
+.avatar_upload_button {
+    border: 0;
+    background: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .upload_icon {
+    color: black;
+  }
+  
+  .upload_text {
+    margin-top: 8px;
+  }
+
+  .title {
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: 'Gowun Batang';
+  }
+  
+  .input_field {
+    color: gray;
+  }
+  
+  .input_editable {
+    color: black;
+  }
+  
+  .success_message {
+    color: green;
+    margin-top: 10px;
+  }
+
+  .edit_button {
+    background-color: red;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center; /* Đẩy nội dung sang bên phải */
+    align-self: flex-end; /* Đẩy nút sang bên phải của container */
+    margin-right: 40px;
+    color: white;
+  }
+
+  .reset_password_modal {
+    .ant-modal-header {
+      background-color: #f0f2f5; // Thay đổi màu nền của header
+      border-bottom: none; // Xóa đường viền dưới của header
+    }
+  
+    .ant-modal-title {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center; // Căn giữa tiêu đề modal
+    }
+  
+    .ant-modal-footer {
+      display: flex;
+      justify-content: center; // Căn giữa các nút
+      background-color: #f0f2f5;
+    }
+  
+    .reset_password_form {
+      .ant-form-item {
+        margin-bottom: 16px; // Tạo khoảng cách giữa các trường
+      }
+  
+      input {
+        border-radius: 5px; // Làm tròn các góc của input
+      }
+  
+      input::placeholder {
+        font-style: italic; // Thêm style cho placeholder
+        color: #999;
+      }
+    }
+  }
+
+  .ant-form-item-explain-error {
+    color: red; // Màu thông báo lỗi
+    font-style: italic;
+    margin-top: 5px; 
+  }

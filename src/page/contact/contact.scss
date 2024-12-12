@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+// font-family: gowun patang;
+
+.Contact__img{
+    width: 100%;
+    height: 70dvh;
+}
+
+.ContactPage{
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    height: auto;
+    .ContactPage__left{
+        margin-left:30% ;
+        margin-top: 10px;
+        p{
+            font-family: gowun patang;
+            position: relative;
+            top: 15px;
+            font-weight: 600;
+        }
+        .ant-input{
+            margin-bottom: -10px;
+        }
+
+        .input{
+            width: 500px;
+        }
+
+        .divider{
+            width: 500px;
+            height: 3px;
+            border-color: rgb(0, 0, 0);
+            border-radius: 5px;
+            position: relative;
+            bottom:70px;
+        }
+
+        .ant-btn{
+            padding: 5px 10px;
+            background-color: rgb(188, 3, 3);
+            position: relative;
+            top: 10px;
+            font-family: gowun patang;
+            font-size: 20px;
+            color: white;
+        }
+    }
+
+    .ContactPage__right{
+        margin-left: 30px;
+        width: 500px;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        font-family: gowun patang;
+        .ContactPage__top{
+            background-color: white;
+            border-radius: 5px;
+            h5{
+                margin-left: 20px;
+                margin-top: 10px;
+                position: relative;
+                top: 10px;
+            }
+            p{
+                margin-left: 20px;
+            }
+            .p1{
+                position: relative;
+                top: 20px;
+            }
+            .p2{
+                position: relative;
+                top: 5px;
+            }
+            .p3{
+                position: relative;
+                bottom:10px;
+            }
+        }
+        .ContactPage__bottom{
+            border-radius: 5px;
+            background-color: white;        
+            padding: 20px;
+            height: auto;
+        }
+    }
+}
+
+.ContactPage__tiltle{
+    h3{
+        font-family: gowun patang;
+        font-size: 40px;
+        text-align: center;
+        color: rgb(188, 3, 3);
+    }
+
+    p{
+        font-family: gowun patang;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 500;
+        color: rgb(188, 3, 3);
+    }
+    .divider{
+        height: 2px;
+        width: 200px;
+        margin: 0 auto;
+        background-color: black;
+        border-radius: 5px;
+        margin-top: 60px;
+    }
+}
+
+.ContactPage__popular{
+    h3{
+        text-align: center;
+        font-family: gowun patang;
+        margin-top: 20px;
+    }
+    .divider{
+        margin: 60px auto;
+        height: 2px;
+        background-color: black;
+        border-radius: 5px;
+    }
+}
+
+.ContactPage__carousel{
+
+    position: relative;
+    bottom: 80px;
+}
+
+.ContactPage__submissions{
+    h3{
+        text-align: center;
+        font-family: gowun patang;
+        color: rgb(200, 0, 0);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+.koide_background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    width: 100vw; 
+    background-image: url('../../img/koi2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.koide_header{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;    
+}
+
+.koide_button {
+    background-color: transparent; 
+    color: black;
+    padding: 8px 15px; 
+    width: 170px;
+    border: none;
+    font-size: 17px; 
+    font-family: Gowun Batang;
+    position: absolute; 
+    left: 0;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.koide_button:hover {
+    color: red; 
+}
+  
+.koide_back {
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 25px; 
+}
+  
+.koide_title {
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: Gowun Batang;
+    margin-bottom: 0px;
+}
+
+.koide_divider {
+    margin: 0 auto;
+    margin-top: -22px; 
+    background-color: black;
+    width: 80%;
+}
+
+.koide_form_wrapper {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    gap: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.koide_left {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    .ant-form-item-label > label {
+        font-size: 18px;
+        font-family: Gowun Batang;
+        font-weight: bold;
+    }
+
+    .ant-input {
+        height: 40px;
+        font-family: Gowun Batang;
+        font-size: 18px;
+    }
+
+    .ant-select {
+        height: 40px;
+    }
+    
+    .ant-select-selector {
+        font-size: 18px;
+        font-family: Gowun Batang;
+    }
+}
+
+.koide_right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    .report-button-container {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        width: 700px;
+
+        .report-button {
+            height: 40px;
+            font-size: 20px;
+            font-family: Gowun Batang;
+            font-weight: bold;
+            color: white;
+            background-color: rgb(207, 4, 4);
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: rgb(208, 4, 4);
+            }
+        }
+    }
+}
+
+.koide_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.koide_button_1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 35px;
+    width: 800px;
+    gap: 10px;
+
+    .ant-btn {
+        font-size: 22px;
+        font-family: Gowun Batang;
+        font-weight: bold;
+        background-color: rgb(207, 4, 4);
+        height: 40px;   
+    }
+}
+
+.custom-modal .ant-modal-content {
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.custom-modal .ant-modal-header {
+    background-color: #f1f1f1; 
+    border-bottom: none;
+    text-align: center; 
+}
+
+.custom-modal .ant-modal-title {
+    font-size: 18px; 
+    font-weight: bold;
+    color: #333; 
+}
+
+.custom-modal .ant-modal-footer {
+    border-top: none; 
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+}
+
+.modal-content-text {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+
+.modal-cancel-button {
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 5px;
+    font-size: 16px;
+    &:hover {
+        background-color: #ccc;
+    }
+}
+
+.modal-delete-button {
+    background-color: #d9534f;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    &:hover {
+        background-color: #c9302c;
+    }
+}
+

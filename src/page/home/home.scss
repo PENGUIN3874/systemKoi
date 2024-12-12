@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+.confirm{
+    color: #28a745;
+}
+h2{
+        font-size: 80px;
+        font-weight: 600;
+        text-align: center;
+        color: rgb(223, 0, 0);
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-family: gowun patang;
+
+}
+
+.HomePage{
+    overflow: hidden;
+}
+
+.HomePage__Introduce{
+
+    .HomPage__left{
+        text-align: center;
+    }
+
+    .HomPage__right{
+        position: relative;
+        left: 0px;
+        p{
+            font-size: 25px;
+            font-family: gowun patang;
+            font-weight: 400;
+        }
+        h1{
+            font-family: gowun patang;
+            color: red;
+            font-weight: 600;
+        }
+        .border{
+            position: relative;
+            background-color: rgb(0, 0, 0);
+            width: 150px;
+            height: 3px;
+        }
+    }
+}
+
+.HomePage__divider{
+    width: 300px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.HomePage{
+    background-color: rgb(255, 255, 255);
+}
+
+.HomePage__body__product{
+    h1{
+        font-family: gowun patang;
+        text-align: center;
+        color: red;
+        font-size: 45px;
+        font-weight: 600;
+    }
+}
+
+
+.HomePage__body__footer{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.HomePage__body{    
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    column-gap: 30px; 
+    background-color: #ede9e69d;
+    margin-left: 2px;
+    .koi{
+        margin-top: 25px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 1);
+        text-align: center;
+        max-width: 335px; 
+        max-height: 480px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 100%; 
+          height: 300px; 
+          border-radius: 10px;
+        }
+
+        .ant-btn{
+            background-color:rgb(207, 4, 4) ;
+            color: white;
+            width: 310px;
+            height: 45px;
+            border-radius: 10px;
+            font-size: 20px;
+            position: relative;
+            bottom: px;
+            font-family: gowun patang;
+        }
+    }
+}
+.modal-content {
+    display: flex;
+    padding: 20px;
+
+    .modal-image {
+        flex: 1;
+        img {
+            width: 100%;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+    }
+
+    .modal-details {
+        flex: 1.5;
+        margin-left: 20px;
+
+        h3 {
+            font-family: gowun patang;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .modal-sku,
+        .modal-stock {
+            display: block;
+            margin: 10px 0;
+            font-size: 16px;
+            color: gray;
+            font-family: gowun patang;
+        }
+.modal-price {
+            font-size: 24px;
+            color: red;
+            margin: 10px 0;
+            font-family: gowun patang;
+        }
+
+        .modal-promotions {
+            margin: 20px 0;
+            h4 {
+                font-size: 20px;
+                margin-bottom: 10px;
+                font-family: gowun patang;
+            }
+
+            ul {
+                list-style: none;
+                li {
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                    font-family: gowun patang;
+                    &:before {
+                        content: ':heavy_check_mark:';
+                        color: green;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+
+        .Viewproduct__buy {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+
+            h5 {
+                margin-right: 10px;
+                font-size: 18px;
+                font-family: gowun patang;
+            }
+
+            input {
+                width: 50px;
+                text-align: center;
+                margin: 0 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            p {
+                padding: 1px 10px;
+                background-color: rgb(199, 199, 199);
+                color: white;
+                font-size: 15px;
+                position: relative;
+                top: 10px;
+                font-family: gowun patang;
+            }
+        }
+
+        .modal-actions {
+            display: flex;
+            .modal-add-cart {
+                background-color: red;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-family: gowun patang;
+                transition: background-color 0.3s ease;
+                margin: 0 auto;
+                &:hover {
+                    background-color: darkred;
+                }
+            }
+
+            .modal-add-cart {
+                background-color: orange;
+                width: 100%;
+            }
+
+            a{
+                text-decoration: none;
+                padding: 5px 60px;
+                border-radius: 5px;
+                background-color: rgb(196, 0, 0);
+                color: white;
+                &:hover {
+                    background-color: darkred;
+                }
+            }
+        }
+    }
+}
+
+.HomePage__viewmore{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    a{
+        text-decoration: none;
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        border-radius: 15px;
+        background-color:rgb(207, 4, 4) ;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: gowun patang;
+    }
+}
+
+.notification {
+    position: fixed;
+top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    z-index: 999;
+}

@@ -1,0 +1,15 @@
+.carousel{
+    .slide{
+        width: 100%;
+        img{
+          width: 100%;             // Chiều rộng luôn full
+          height: 500px;           // Chiều dài ngắn hơn, có thể điều chỉnh giá trị này theo ý muốn
+        }
+      }
+
+    &.multi-items{
+        img{
+            height: 200px;
+        }
+    }
+}

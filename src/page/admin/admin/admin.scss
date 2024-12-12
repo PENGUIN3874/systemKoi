@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+.Admin{
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.Header{
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px 4px 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+    h1{
+
+    }
+}
+
+.admin__header{
+    text-align: center;
+    font-size: 60px;
+    font-family: gowun patang;
+    position: relative;
+    top: 20px;
+    color: rgb(202, 0, 0);
+}
+.Footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+
+}
+.SideMenuAndContent{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(255, 252, 248);
+}
+.SideMenu{
+    height: 100%;
+}
+.SideMenuVertical{
+    height: 100%;
+}
+.Content{
+    padding-left: 12px;
+}
+

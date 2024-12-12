@@ -1,0 +1,13 @@
+.carousel{
+    img{
+        width: 100%;
+        height: 70dvh;
+        object-fit: cover;
+
+    }
+    &.multi-items{
+        img{
+            height: 200px;
+        }
+    }
+}

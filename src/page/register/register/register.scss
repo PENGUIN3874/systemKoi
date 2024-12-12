@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+.container__login {
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-left:-10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.row{
+    display: flex; 
+    height: 100%;
+    width: 100%; 
+}
+
+.left, .right {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+}
+
+.left {
+    background-color: black;
+}
+
+.right {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    overflow: auto; 
+}
+
+img.koi {
+    max-width: 60%;
+    height: auto;
+}
+
+img.login__logo {
+    max-width: 40%; 
+    height: auto;
+}
+
+.right .login {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    overflow: auto;
+}
+
+
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: none;
+    border: 0;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(197, 53, 5);
+    padding: 10px 36px;
+    width: 55%;
+    margin-top: 20px;
+}
+
+.login .forgot{
+    text-decoration: none;
+    color: rgb(197, 53, 5);
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    font-family: gowun patang;
+}
+
+.login b{
+    color: rgb(197, 53, 5);
+    font-family: gowun patang;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.login p{
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    bottom: 5px;
+    font-family: gowun patang;
+}
+
+.login h2{
+    position: relative;
+    bottom: 30px;
+    font-size: 35px;
+    font-family: gowun patang;
+    font-weight: 600;
+}
+
+  
+
+.signup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px; 
+}
+
+.signup h3 {
+    margin-right: 10px; 
+    font-size: 18px; 
+    font-weight: 600;
+    position: relative;
+    bottom: 26px;
+    font-family: gowun patang;
+}
+
+.signup a {
+    font-size: 18px; 
+    color: rgb(197, 53, 5); 
+    text-decoration: none; 
+    font-weight: 600;
+    position: relative;
+    bottom: 30px;
+    font-family: gowun patang;
+}
+
+.divider {
+    background-color: rgb(153, 153, 153);
+    height: 2px;
+    width: 350px;
+    margin: 30px 0; 
+    position: relative;
+    bottom: 50px;
+}
+
+.login__google {
+    background-color: white;
+    display: flex;
+    color: black;
+    border: 2px solid rgb(180, 180, 180);
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    position: relative;
+    bottom: 70px;
+}
+
+.login__google img {
+    margin-right: 10px;
+}
+
+.login__form {
+    .ant-input{
+        width: 330px;
+        height: 40px;
+    }
+    .ant-input-password {
+        width: 330px;
+        height: 40px;
+        align-items: center;
+    }
+
+    .ant-btn{
+        background-color: rgb(197, 53, 5); 
+        font-size: 20px;
+        font-weight: 600;
+        height: 40px;
+        align-items: center;
+        color: white;
+    }
+}

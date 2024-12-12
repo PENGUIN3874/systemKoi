@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+.footer__information {
+    position: relative;
+    background-image: url('../../img/fter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 400px;
+}
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    h3{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: gowun patang;
+    }
+
+}
+
+.footer__body{
+margin-left: 10px;
+position: relative;
+top: 40px;
+    .footer__body__left{
+        position: relative;
+        left: 100px;
+        color: white;
+        font-size: 20px;
+        font-family: gowun patang;
+        
+        h3{
+            font-weight: 600;
+            font-size: 25px;
+            margin-top: 10px;
+
+        }
+        p{
+            margin-top: 30px;
+        }
+    }
+}
+
+.footer__body__right{
+    color: white;   
+    text-align: left;
+    font-family: gowun patang;
+    p{
+        margin-left: 350px;
+        font-weight: 600;
+        font-size: 25px;
+        font-family: gowun patang;
+    }
+    h5{
+        margin-left: 350px;
+        margin-top: 30px;
+        color: rgb(255, 255, 255);
+    }
+}

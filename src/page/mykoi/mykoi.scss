@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+.mykoi_background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  width: 100vw; 
+  background-image: url('../../img/koi2.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mykoi_title {
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+
+  h1 {
+    font-size: 50px;
+    font-family: gowun batang;
+    font-weight: 520;
+    color: rgb(207, 4, 4);
+    margin-bottom: -3px; 
+  }
+}
+
+.mykoi_divider {
+  background-color: black;
+  width: 80%;
+  height: 1px;
+  margin: 5px auto; 
+}
+
+.mykoi_area {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  margin: 0 auto;
+  max-width: 20%; 
+  position: relative; 
+
+  .ant-btn-primary {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #d62f2f;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: none;
+
+    &:hover {
+      background-color: #e64545;
+    }
+  }
+
+  .ant-btn-default {
+    background-color: #d62f2f;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: none;
+
+    &:hover {
+      background-color: #e64545;
+    }
+
+    .anticon {
+      color: white;
+    }
+
+    &:hover .anticon {
+      color: black;
+    }
+  }
+
+  .ant-select {
+    width: 150px;
+
+    .ant-select-selector {
+      background-color: #d62f2f;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      box-shadow: none;
+
+      &:hover {
+        background-color: #e64545;
+      }
+    }
+    .ant-select-arrow {
+      color: white;
+    }
+  }
+}
+
+.koi_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.empty_message{
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  font-family: gowun batang;
+}
+
+.koi_item {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-family: gowun batang;
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .koi_info {
+    width: 100%;
+    p {
+      font-size: 20px;
+      color: #333;
+      margin: 5px 0;
+
+      strong {
+        font-weight: bold;
+        color: #333;
+      }
+    }
+  }
+}
+
+.mykoi_modal,
+.mykoi_filter_modal { 
+  .ant-modal-content {
+    border: 2px solid #d62f2f;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .ant-modal-title {
+    text-align: center;
+    font-family: gowun batang;
+    font-size: 29px;
+    color: rgb(207, 4, 4);
+  }
+
+  .ant-divider {
+    background-color: black;
+    margin-top: -1px;
+  }
+
+  .ant-modal-body {
+    padding: 0 24px 20px 24px;
+  }
+
+  .add_image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    img {
+      width: 200px;
+      height: 100px;
+      border-radius: 10px;
+      object-fit: cover;
+      border: 2px solid #d62f2f;
+      margin-bottom: 15px;
+    }
+  }
+
+  .ant-form-item {
+    margin-bottom: 20px;
+
+    .ant-form-item-label > label {
+      font-size: 18px;
+      font-weight: bold;
+      font-family: gowun batang;
+    }
+  }
+
+  .ant-input,
+  .ant-select-selector,
+  .ant-select {
+    width: 100%;
+    height: 38px;
+    font-size: 20px;
+    font-family: gowun batang;
+  }
+
+  .ant-modal-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+  }
+
+  .ant-btn {
+    font-size: 18px;
+    padding: 5px 15px;
+    font-family: gowun batang;
+    font-weight: bold;
+  }
+
+  .ant-btn-primary {
+    background-color: #d62f2f !important;
+    border-color: #d62f2f !important;
+    color: #fff !important;
+
+    &:hover {
+      background-color: #b82525 !important;
+      border-color: #700c0c !important;
+    }
+  }
+
+  .ant-btn-default {
+    font-family: gowun batang;
+    font-weight: bold;
+    color: #333;
+
+    &:hover {
+      border-color: #700c0c !important;
+    }
+  }
+}
+
+.mykoi_modal,
+.mykoi_filter_modal {
+  // Các style khác đã có
+  .ant-form-item-label > label {
+    font-size: 18px; // Tăng kích thước font chữ cho label
+    font-weight: bold;
+    font-family: 'Gowun Batang', serif;
+  }
+}
+

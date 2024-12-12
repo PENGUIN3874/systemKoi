@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+.food_background_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('../../img/foodwall.jpg');
+  background-size: cover;
+}
+
+.food_container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%; 
+  margin: 0 auto;
+}
+
+.food_title {
+  font-size: 40px;
+  font-family: gowun batang;
+  font-weight: bold;
+  color:  red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.food_divi {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: -24px;
+  margin-bottom: -25px;
+  .ant-divider {
+    background-color: black;
+  }
+}
+
+.food_form_wrapper {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.food_left_form {
+  flex: 1;
+  width: 40%; 
+
+  .ant-form-item {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+
+    .ant-form-item-label label {
+      font-size: 20px;
+      font-family: gowun batang;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .growth-buttons,
+    .temperature-buttons {
+      display: flex;
+      gap: 4px; 
+      margin-top: -14px; 
+      justify-content: center; 
+    }
+    
+    p { 
+        font-size: 20px; 
+        font-weight: bold;
+        font-family: gowun batang;
+        color: black; 
+        margin: 0;
+    }
+  }
+
+  .ant-btn {
+    font-size: 18px; 
+    font-family: Gowun Batang;
+  }
+}
+
+.food_right_form {
+  flex: 1;
+  width: 40%; 
+  padding: 20px;
+  border-left: 2px solid black;
+
+  h3 {
+    font-size: 42px;
+    font-family: gowun batang;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: gowun batang;
+  }
+}
+
+.food_expert {
+  p {
+    margin-top: 5px;
+  }
+
+  button {
+    background-color:  red; 
+    color: white;         
+    width: 20%;          
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 8px 0;      
+    line-height: 0.3;     
+    margin-top: -10px;  
+  }
+}
+
+.food_expert_info {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+  
+  h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0;
+    font-family: gowun batang;
+  }
+}
+
+.ant-tooltip-inner {
+  font-size: 1rem; 
+  font-weight: bold; 
+  line-height: 1.4;  
+}
+
+.recommend_amount_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color: rgb(208, 0, 0); 
+  color: #fff; 
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  .amount-value {
+    font-size: 24px; 
+    font-weight: bold;
+    font-family: gowun batang;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    font-family: gowun batang;
+  }
+}
+
+.growth-buttons button,
+.temperature-buttons button {
+  background-color: #f0f0f0;
+  color: black;
+  border: none;
+  width: 200px;
+
+  &:hover {
+    background-color:rgb(207, 4, 4);
+  }
+  
+  &.ant-btn-primary {
+    background-color: red; 
+  }
+
+  &.selected {
+    background-color: red;
+    color: white;
+  }
+}

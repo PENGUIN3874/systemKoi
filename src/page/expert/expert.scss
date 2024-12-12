@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+.exp_background_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../../img/foodwall.jpg');
+    background-size: cover;
+  }
+
+.exp_container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; 
+    margin: 0 auto;
+}
+
+.exp_header {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative; 
+  }
+  
+  .normal_mode_button {
+    background-color: transparent; 
+    color: black;
+    padding: 8px 15px; 
+    width: 170px;
+    border: none;
+    font-size: 17px; 
+    font-family: Gowun Batang;
+    position: absolute; 
+    left: 0;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+
+  .normal_mode_button:hover {
+    color: red; 
+  }
+  
+  .back_arrow {
+    margin-right: 8px;
+    font-size: 20px; 
+  }
+  
+  .exp_title {
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: Gowun Batang;
+    margin-bottom: 0px;
+  }
+  
+.exp_divider {
+    margin: 0 auto;
+    margin-top: -22px; 
+    background-color: black;
+    width: 50%;
+}  
+
+.exp_form_wrapper {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+}
+  
+.exp_left_form {
+    display: flex;  
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+
+    .ant-form-item-label > label {
+        font-size: 1.2rem; 
+        font-weight: bold; 
+        font-family: gowun batang;
+      }
+    
+      .koi_weight_wrapper {
+        font-size: 1.2rem; 
+        font-weight: bold;
+        font-family: gowun batang;
+    
+        .koi_weight_value {
+          font-size: 1.2rem; 
+          font-weight: normal;
+          color: #333; 
+          font-weight: bold;
+        }
+      }
+    
+      .ant-slider {
+        width: 800px; 
+        margin-top: 10px;
+    
+        .ant-slider-track {
+          height: 6px; 
+        }
+    
+        .ant-slider-handle {
+          width: 18px; 
+          height: 18px;
+        }
+      }
+    
+      .ant-slider-mark-text {
+        font-size: 2rem;
+      }
+    
+      .current-percentage {
+        font-size: 1.5rem; 
+        font-weight: bold;
+      }
+}
+
+.koi_weight_wrapper {
+    display: inline-block;
+    font-size: 18px; 
+}
+
+.koi_weight_label {
+    font-family: Gowun Batang;
+    font-weight: normal; 
+    margin-right: 10px; 
+}
+
+.koi_weight_value {
+    font-weight: bold; 
+    color: #333;
+}
+
+.exp_right_form {
+    flex: 1;
+    background-color: white; 
+    padding: 20px;
+    border-left: 2px solid black;
+}
+
+.exp_warning h3 {
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.exp_warning p {
+    color: black;
+    font-family: Gowun Batang;
+    font-size: 20px;
+    font-weight: 50px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.exp_recommendation {
+    background-color: rgb(208, 0, 0);
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.exp_recommendation_label {
+
+    font-size: 24px;
+    font-family: gowun batang;
+}
+
+.exp_recommendation_value {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: gowun batang;
+    margin-top: 2px;
+}

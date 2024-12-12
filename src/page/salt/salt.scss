@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+.salt_background_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('../../img/foodwall.jpg');
+  background-size: cover;
+}
+
+.salt_container {
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.salt_title {
+  font-size: 40px;
+  color: red;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: Gowun Batang;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.salt_divider {
+  width: 50%;
+  margin: 0 auto;
+  .ant-divider {
+    background-color: black;
+    margin-top: -2px;
+  }
+}
+.salt_form-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 600px;
+  gap: 20px; 
+}
+
+.salt_left_form,
+.salt_right_form {
+  flex: 1; 
+  padding: 20px;
+}
+
+.salt_left_form {
+  background-color: white;
+
+  .ant-form-item-label > label {
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: gowun batang;
+  }
+
+  .ant-form-item {
+    font-size: 1.2rem; 
+
+    .salt_current .ant-slider-handle,
+    .salt_disired .ant-slider-handle {
+      font-size: 1.1rem; 
+      color: #333;      
+    }
+  }
+
+  .salt_totalall {
+    font-size: 20px;
+    font-family: gowun batang;
+  }
+ 
+  .koi_weight_wrapper,
+  .salt_current,
+  .salt_disired {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: gowun batang;
+  }
+}
+
+.ant-slider {
+  width: 900px; 
+  margin-top: 10px; 
+
+  .ant-slider-track {
+    height: 6px; 
+  }
+
+  .ant-slider-handle {
+    width: 18px; 
+    height: 18px;
+  }
+
+  .ant-slider-mark-text {
+    font-size: 1.1rem; 
+  }
+}
+
+.salt_right_form {
+  background-color: white;
+  border-left: 2px solid black;
+}
+
+.salt_disclaimer {
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: -20px;
+}
+
+.salt_disclaimer h3 {
+  font-size: 30px;
+  font-family: gowun batang;
+  font-weight: bold;
+  color: red;
+}
+
+.salt_disclaimer p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: gowun batang;
+  font-weight: bold;
+}
+
+.salt_current,
+.salt_disired {
+  margin-bottom: 20px;
+}
+
+.ant-slider {
+  margin-top: 10px;
+}
+
+// @media (max-width: 768px) {
+//   .salt_container {
+//     flex-direction: column;
+//   }
+
+//   .salt_left_form,
+//   .salt_right_form {
+//     width: 100%;
+//     margin-bottom: 20px;
+//   }
+// }
+
+.salt_result {
+  background-color: rgb(208, 0, 0);
+  color: #fff; 
+  padding: 10px;
+  border-radius: 20px; 
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  width: 50%; 
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.result_item {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+  padding: 5px 0; 
+}
+
+.result_item span:first-child {
+  font-size: 22px;
+  font-family: gowun batang;
+}
+
+.result_item span:last-child {
+  font-size: 22px; 
+  font-weight: bold;
+  text-align: right;
+  margin-left: 10px;
+  font-family: gowun batang;
+}
+
+// @media (max-width: 768px) {
+//   .salt_result {
+//     flex-direction: column;
+//     align-items: center;
+//   }
+  
+//   .result_item {
+//     width: 100%;
+//     margin-bottom: 20px;
+//   }
+// }
+
+.salt_instruct {
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: -30px;
+
+  h3 {
+    font-size: 30px;
+    font-family: "Gowun Batang";
+    font-weight: bold;
+    color: red;
+  }
+
+  ul, ol {
+    padding-left: 20px;
+  }
+
+  li {
+    font-size: 20px;
+    font-family: "Gowun Batang";
+    line-height: 1.5;
+  }
+}
+
+.salt_warning_tooltip {
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+  padding: 20px;
+  border-radius: 10px;
+
+  h3 {
+    font-size: 30px;
+    font-family: "Gowun Batang";
+    font-weight: bold;
+    color: red;
+    margin-right: 10px; 
+  }
+
+  .ant-tooltip-inner {
+    max-width: 300px; 
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Gowun Batang";
+  }
+
+  .salt_warning_content {
+    h3 {
+      font-size: 18px;
+      font-weight: bold;
+      color: red;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.5;
+    }
+  }
+}
+
+
